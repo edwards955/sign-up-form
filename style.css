@@ -3,16 +3,32 @@
     src: url(./fonts/Norse-Bold.otf)
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
     height: 100vh;
     flex: 1;
+    margin: 0;
 }
 
 .main-left, .main-right {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     flex-direction: column;
+}
+
+.main-left {
+    width: 40vw;
+    background: url("./images/background.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-right {
+    width: 60vw;
 }
 
 .one, .two, .three {
