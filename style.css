@@ -2,3 +2,35 @@
     font-family: norse;
     src: url(./fonts/Norse-Bold.otf)
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex: 1;
+}
+
+.main-left, .main-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.one, .two, .three {
+    flex: 1;
+}
+
+.logo {
+    background-color: black;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+}
