@@ -54,16 +54,14 @@ img {
     height: 150px;
 }
 
-
-
 .one {
-    background-color: red;
+    background-color: rgb(237, 238, 232);
 }
 
 .two {
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 }
 
 .three {
-    background-color: blue;
+    background-color: rgb(202, 209, 184);
 }
