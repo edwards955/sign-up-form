@@ -21,23 +21,40 @@ body {
 }
 
 .main-left {
-    width: 40vw;
+    width: 40%;
     background: url("./images/background.avif");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-right {
-    width: 60vw;
+    width: 60%;
 }
 
 .one, .two, .three {
     flex: 1;
 }
 
+
 .logo {
-    background-color: black;
+    background-color: rgba(5, 1, 1, 0.5);
+    margin-top: 125px;
+    flex-basis: 200px;
+    font-family: norse, sans-serif;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+img {
+    flex: 0 1 auto;
+    height: 150px;
+}
+
+
 
 .one {
     background-color: red;
