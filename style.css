@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -56,6 +57,16 @@ img {
 
 .one {
     background-color: rgb(237, 238, 232);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.p1, .p2 {
+    margin: 90px 40px 0px 40px;
+}
+
+.p2 {
+    margin-top: 10px;
 }
 
 .two {
