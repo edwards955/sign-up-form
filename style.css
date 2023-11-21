@@ -22,20 +22,19 @@ body {
 }
 
 .main-left {
-    width: 40%;
+    width: 40vw;
     background: url("./images/background.avif");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main-right {
-    width: 60%;
+    width: 60vw;
 }
 
 .one, .two, .three {
     flex: 1;
 }
-
 
 .logo {
     background-color: rgba(5, 1, 1, 0.5);
@@ -61,18 +60,43 @@ img {
     font-size: 32px;
 }
 
-.p1, .p2 {
+.p1 {
     margin: 90px 40px 0px 40px;
 }
 
 .p2 {
-    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 40px;
 }
 
 .two {
     background-color: rgb(255, 255, 255);
 }
 
+.two > h2 {
+  margin-left: 40px;
+}
+
 .three {
     background-color: rgb(202, 209, 184);
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+label, input {
+  display: block;
+}
+
+.link-col-1, .link-col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-size: 10px;
 }
